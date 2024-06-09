@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Image Gallery - By Abhinav Swami
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery" class="gallery-container">
+            <h2>Gallery</h2>
+            <div class="image-gallery" aria-live="polite">
+                <figure>
+                    
+                    <img src="IMG1.jpg" alt="Image 1">
+                    <figcaption>Image 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG2.jpg" alt="Image 2">
+                    <figcaption>Image 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG3.jpg" alt="Image 3">
+                    <figcaption>Image 3</figcaption>
+                </figure>
+                <figure>
+        
+                    <img src="IMG4.jpg" alt="Image 4">
+                    <figcaption>Image 4</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG11.jpg"Image 5">
+                    <figcaption>Image 5</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG6.jpg" alt="Image 6">
+                    <figcaption>Image 6</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG7.jpg" alt="Image 7">
+                    <figcaption>Image 7</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG8.jpg" alt="Image 8">
+                    <figcaption>Image 8</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG9.jpg" alt="Image 9">
+                    <figcaption>Image 9</figcaption>
+                </figure>
+                <figure>
+                    <img src="IMG10.jpg" alt="Image 10">
+                    <figcaption>Image 10</figcaption>
+                </figure>
+                
+
+
+                    <!-- Add more images as needed -->
+            </div>
+            <div class="thumbnails" aria-hidden="true"></div>
+            <button id="prevBtn" aria-label="Previous">&lt;</button>
+            <button id="nextBtn" aria-label="Next">&gt;</button>
+            <button id="autoplayBtn" aria-label="Autoplay">Autoplay</button>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Here are some features our image gallery offers, explained below to help users understand what features
+                this site provides:
+
+            </p>
+            <br>
+            <ul>
+                <li>Feature 1 </li>
+                <section id="features">
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li>
+                            <h3>Responsive Design</h3>
+                            <p>Our image gallery is optimized for various screen sizes and devices, ensuring a seamless
+                                viewing experience on desktops, tablets, and smartphones.</p>
+                        </li>
+
+                        <!-- Add more features as needed -->
+                    </ul>
+                </section>
+
+                <li>Feature 2</li>
+                <section id="features">
+                    <h3>Interactive Image Navigation</h3>
+                    <p>Users can navigate through the gallery using intuitive controls such as next and previous
+                        buttons, keyboard shortcuts, and touch/swipe gestures on touch-enabled devices.</p>/li>
+                </section>
+                <li>Feature 3</li>
+                <section id="features">
+                    <h3>Autoplay Functionality</h3>
+                    <p>Enjoy hands-free browsing with the autoplay feature, which automatically transitions
+                        between images at a customizable interval.</p>
+                </section>
+                </li>
+
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <div class="sidebar">
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Advanced Image Gallery</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
